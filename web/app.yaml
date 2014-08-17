@@ -1,0 +1,14 @@
+application: anoside
+version: 1
+runtime: go
+api_version: go1
+
+handlers:
+- url: /
+  static_files: public/index.html
+  upload: public/index.html
+- url: /javascripts
+  static_dir: public/javascripts
+
+- url: /api(.*)
+  script: _go_app
