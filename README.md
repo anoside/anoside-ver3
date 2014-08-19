@@ -1,5 +1,9 @@
 # Anoside
 
+実験的にGo / ClojureScriptで開発中。
+http://anoside.com で実際に稼働しているシステムは [anoside/anoside](https://github.com/anoside/anoside) になります。
+
+
 ## 動かし方
 
 ### 必要なソフトウェアのインストールする
